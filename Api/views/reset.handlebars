@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background:white ; color: black; padding:5px;">
+        <h1>E-Comm</h1>
+    </div>
+    <div style="background: gray; height: 400px; padding: 5px 20px;">
+        <h2 class="username" style="padding-bottom: 15px;">Hello {{username}}</h2>
+        <h3 style="padding-bottom: 5px;"> A request had been received to change the password for your E-com account.{{username}}</h3>
+        <div style="display: flex; justify-content: center !important; padding-bottom: 20px;" >
+            <button style="height: 40px; font-size: 15px; width: 150px; background: rgb(15, 98, 241); border: none; color: white; display:inline-block; margin-left: auto; margin-right:auto"><a href="http://localhost:5000/reset?token={{token}}" style="color: white; text-decoration:none" >Reset password</a></button>  
+        </div>
+        <div style="padding-bottom: 30px;">
+            <p>if you did not initiate the  request, please contact us immediately at <a href="https:// support@E-comm.com"> support@E-comm.com</a></p>
+        </div>
+        <div style="margin-bottom: 50px;">
+            <h3>Thank you</h3>
+            <h3 style="margin-top: -15px;">The E-Comm Team</h3>
+        </div>
+    </div>
+    <div style="background-color: white; height: 190px; color: rgb(32, 29, 29); flex-direction: column !important; align-items: center !important;">
+        <h1 style="text-align: center;">E-comm</h1>
+        <h4 style="margin-top: -10px; text-align: center">buy with ease & confidence</h4>
+        <h5 style="text-align: center;">@ E-comm inc 1801 caifoma street, suite 500, deriver CO80202 USA</h5>
+        <div style="display: inline-block; margin-right: auto; margin-left:auto; color: rgb(0, 110, 255); gap: 20px; ">
+            <h4 style="margin-right: 20px; display: inline-block">Blog</h4>
+            <h4 style="margin-right: 20px; display: inline-block">GitHub</h4>
+            <h4 style="margin-right: 20px; display: inline-block"> Twitter</h4>
+            <h4 style="margin-right: 20px; display: inline-block"> Facebook</h4>
+            <h4 style="margin-right: 20px; display: inline-block">Instagram</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>
