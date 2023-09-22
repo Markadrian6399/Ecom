@@ -1,5 +1,5 @@
 /admin/node_modules
 /Api/node_modules
 /client/node_modules
-/Api/.env
+/Api/%.env
 /node_modules
